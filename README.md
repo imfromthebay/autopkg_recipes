@@ -1,2 +1,4 @@
-# autopkg_recipes
-autopkg recipes
+# Greg's Autopkg Recipes
+#
+Autopkg recipes built and managed by Greg Reznik.
+
