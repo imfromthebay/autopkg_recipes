@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Caffeine and creates a package.</string>
 	<key>Identifier</key>
-	<string>gregreznik.pkg.Caffeine</string>
+	<string>com.github.gregreznik.pkg.Caffeine</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
