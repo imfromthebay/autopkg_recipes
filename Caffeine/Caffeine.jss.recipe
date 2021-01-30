@@ -8,23 +8,27 @@
 	<string>gregreznik.jss.Caffeine</string>
 	<key>Input</key>
 	<dict>
-		<key>CATEGORY</key>
-		<string>Productivity</string>
-		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
-		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
-		<key>NAME</key>
-		<string>Caffeine</string>
-		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
-		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Caffeine for Mac</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>%NAME%.png</string>
-	</dict>
+            <key>NAME</key>
+            <string>Caffeine</string>
+            <key>OS_REQUIREMENTS</key>
+            <string>10.11.x,10.10.x,10.9.x</string>
+            <key>JSS_INVENTORY_NAME</key>
+            <string>Caffeine.app</string>
+            <key>CATEGORY</key>
+            <string>Productivity</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Testing</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/Caffeine.png</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%-update-smart</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+            <key>DESCRIPTION</key>
+            <string>Stop your screen from falling asleep or starting your screensaver!</string>
+        </dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
