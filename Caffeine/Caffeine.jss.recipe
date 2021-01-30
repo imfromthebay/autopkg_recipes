@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>NAME</key>
+	<string>Caffeine</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Caffeine and imports it into your JSS.</string>
 	<key>Identifier</key>
@@ -15,13 +15,13 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Caffeine</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Caffeine for Mac</string>
 		<key>SELF_SERVICE_ICON</key>
