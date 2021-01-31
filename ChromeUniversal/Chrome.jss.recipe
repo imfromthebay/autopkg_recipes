@@ -32,7 +32,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>gregreznik.download.Chrome</string>
+	<string>com.github.gregreznik.pkg.Chrome</string>
 	<key>Process</key>
 	<array>
 		<dict>
