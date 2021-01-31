@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+m<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>chrome</string>
+		<string>googlechrome/string>
 		<key>NAME</key>
-		<string>chrome</string>
+		<string>Google Chrome</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
