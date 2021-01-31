@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of the OpenVPN Connect Client 3 for Mac and copy PKG out</string>
+	<string>Downloads the latest version of the OpenVPN Connect Client 3 for Mac and extracts the PKG</string>
 	<key>Identifier</key>
 	<string>com.github.gregreznik.download.OpenVPN Connect Client 3</string>
 	<key>Input</key>
