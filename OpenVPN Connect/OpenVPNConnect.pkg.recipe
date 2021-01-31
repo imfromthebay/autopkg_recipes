@@ -10,6 +10,8 @@
     <dict>
         <key>NAME</key>
         <string>OpenVPNConnect</string>
+	<key>LOCATION</key>
+        <string>OpenVPN Connect/OpenVPN Connect.app</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
@@ -18,17 +20,57 @@
     <key>Process</key>
     <array>
         <dict>
-	    <key>Comment</key>
-	    <string>Copy the pkg out of the DMG</string>
+            <key>Processor</key>
+            <string>FlatPkgUnpacker</string>
+            <key>Arguments</key>
+            <dict>
+                <key>flat_pkg_path</key>
+                <string>%pathname%</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgPayloadUnpacker</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_payload_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack/OpenVPNConnect.pkg/Payload</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PlistReader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>info_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack/%LOCATION%</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgCopier</string>
             <key>Arguments</key>
             <dict>
                 <key>source_pkg</key>
-                <string>%pathname%/OpenVPN_Connect*.pkg</string>
-		<key>pkg_path</key>
-		<string>%RECIPE_CACHE_DIR%/OpenVPNConnect-*.pkg</string>
+                <string>%pathname%</string>
+                <key>pkg_path</key>
+                <string>%RECIPE_CACHE_DIR%/OpenVPNConnect-%version%.pkg</string>
             </dict>
+        </dict>
+        <dict>
             <key>Processor</key>
-            <string>PkgCopier</string>
+            <string>PathDeleter</string>
+            <key>Arguments</key>
+            <dict>
+                <key>path_list</key>
+                <array>
+                    <string>%RECIPE_CACHE_DIR%/unpack</string>
+                </array>
+            </dict>
         </dict>
     </array>
 </dict>
