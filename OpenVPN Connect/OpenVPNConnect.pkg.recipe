@@ -73,6 +73,15 @@
 		    <key>Processor</key>
             	    <string>PkgCopier</string>
         </dict>
+	<dict>
+			<key>Processor</key>
+			<string>Installer</string>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/OpenVPNConnect</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
