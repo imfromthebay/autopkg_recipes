@@ -12,7 +12,7 @@
         <string>OpenVPNConnect</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>local.download.OpenVPN Connect Client 3</string>
+    <string>com.github.dataJAR-recipes.download.OpenVPN Connect Client 3</string>
     <key>Process</key>
     <array>
         <dict>
