@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>OpenVPNConnect</string>
 		<key>VERSION</key>
-		<string>'grep 'product version=' %RECIPE_CACHE_DIR%/unpack/Distribution | tr -d '<product Version="v"/>''</string>
+		<string>n/a</string>
 		<key>USER_AGENT</key>
 		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36</string>
         </dict>
