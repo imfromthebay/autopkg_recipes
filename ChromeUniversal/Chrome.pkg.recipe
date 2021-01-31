@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image and builds a package. The installer package includes a preinstall script that will check for an existing Google Chrome.app in /Applications and remove it if found.</string>
     <key>Identifier</key>
-    <string>com.github.gregreznik.pkg.googlechrome</string>
+    <string>com.github.gregreznik.pkg.Chrome</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
