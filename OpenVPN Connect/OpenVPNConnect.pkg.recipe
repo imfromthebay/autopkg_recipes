@@ -90,7 +90,7 @@
             <key>Arguments</key>
             <dict>
                 <key>info_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/OpenVPN Connect.app</string>
+                <string>%RECIPE_CACHE_DIR%/unpack/Distribution</string>
             </dict>
         </dict>
         <dict>
