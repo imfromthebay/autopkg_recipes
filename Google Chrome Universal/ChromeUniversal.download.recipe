@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Chrome.</string>
 	<key>Identifier</key>
-	<string>com.github.gregreznik.download.Chrome</string>
+	<string>com.github.gregreznik.download.ChromeUniversal</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
