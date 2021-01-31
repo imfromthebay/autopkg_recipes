@@ -15,13 +15,13 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>CFBundleVersionSmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Chrome</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Early Google Chrome builds for developers.</string>
 		<key>SELF_SERVICE_ICON</key>
