@@ -82,19 +82,6 @@
 			<string>%RECIPE_CACHE_DIR%/downloads/%NAME%-latest.pkg</string>
 			</dict>
 	</dict>
-        <dict>
-		    <key>Comment</key>
-		    <string>Rename PKG</string>
-		    <key>Arguments</key>
-		    <dict>
-			       <key>source_pkg</key>
-			       <string>%pathname%/downloads/%NAME%.pkg</string>
-			       <key>pkg_path</key>
-			       <string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%version%.pkg</string>
-	     </dict>
-		    <key>Processor</key>
-            	    <string>PkgCopier</string>
-        </dict>
 	</array>
 </dict>
 </plist>
