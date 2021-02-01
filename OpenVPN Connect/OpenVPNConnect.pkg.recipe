@@ -46,7 +46,7 @@
 			<string>EndOfCheckPhase</string>
 		</dict>
                 <dict>
-	        <key>Arguments</key>
+	                <key>Arguments</key>
 	        <dict>
 	                <key>input_path</key>
 	                <string>%pathname%/OpenVPN_Connect*.pkg</string>
@@ -57,16 +57,16 @@
 					<string>Apple Root CA</string>
 				</array>
 	        </dict>
-	        <key>Processor</key>
-	        <string>CodeSignatureVerifier</string>
+	                <key>Processor</key>
+	                <string>CodeSignatureVerifier</string>
 	        </dict>
 	        <dict>
 			<key>Processor</key>
 			<string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader</string>
 			<key>Arguments</key>
 			<dict>
-			<key>source_pkg</key>
-			<string>%pathname%/OpenVPN_Connect*.pkg</string>
+			        <key>source_pkg</key>
+			        <string>%pathname%/OpenVPN_Connect*.pkg</string>
 			</dict>
 	        </dict>
 	        <dict>
@@ -74,10 +74,10 @@
 		        <string>Copy the pkg out of the DMG</string>
 		        <key>Arguments</key>
 		        <dict>
-			       <key>source_pkg</key>
-			       <string>%pathname%/OpenVPN_Connect*.pkg</string>
-			       <key>pkg_path</key>
-			       <string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%version%.pkg</string>
+			        <key>source_pkg</key>
+			        <string>%pathname%/OpenVPN_Connect*.pkg</string>
+			        <key>pkg_path</key>
+			        <string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%version%.pkg</string>
 	                </dict>
 		                <key>Processor</key>
             	                <string>PkgCopier</string>
