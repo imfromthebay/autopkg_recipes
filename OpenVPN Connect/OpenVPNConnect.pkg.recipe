@@ -61,6 +61,15 @@
 	        <string>CodeSignatureVerifier</string>
 	    </dict>
 	    <dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader</string>
+			<key>Arguments</key>
+			<dict>
+			<key>source_pkg</key>
+			<string>%pathname%/OpenVPN_Connect*.pkg</string>
+			</dict>
+	</dict>
+	    <dict>
 		    <key>Comment</key>
 		    <string>Copy the pkg out of the DMG</string>
 		    <key>Arguments</key>
@@ -68,20 +77,11 @@
 			       <key>source_pkg</key>
 			       <string>%pathname%/OpenVPN_Connect*.pkg</string>
 			       <key>pkg_path</key>
-			       <string>%RECIPE_CACHE_DIR%/downloads/%NAME%-latest.pkg</string>
+			       <string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%version%.pkg</string>
 	     </dict>
 		    <key>Processor</key>
             	    <string>PkgCopier</string>
         </dict>
-	<dict>
-			<key>Processor</key>
-			<string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader</string>
-			<key>Arguments</key>
-			<dict>
-			<key>source_pkg</key>
-			<string>%RECIPE_CACHE_DIR%/downloads/%NAME%-latest.pkg</string>
-			</dict>
-	</dict>
 	</array>
 </dict>
 </plist>
