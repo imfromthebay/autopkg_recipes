@@ -75,11 +75,11 @@
         </dict>
 	<dict>
 			<key>Processor</key>
-			<string>Installer</string>
+			<string>PkgInfoReader.py</string>
 			<key>Arguments</key>
 			<dict>
-			<key>pkg_path</key>
-			<string>%RECIPE_CACHE_DIR%/downloads/OpenVPNConnect</string>
+			<key>source_pkg</key>
+			<string>%RECIPE_CACHE_DIR%/downloads/OpenVPNConnect-latest.pkg</string>
 			</dict>
 		</dict>
 	</array>
