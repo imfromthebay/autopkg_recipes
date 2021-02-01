@@ -17,13 +17,13 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>Caffeine</string>
+		<string>OpenVPN Connect</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Caffeine for Mac</string>
+		<string>OpenVPN Connect client for Mac</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%RECIPE_DIR%/OpenVPNConnect-icon.png</string>
 	</dict>
