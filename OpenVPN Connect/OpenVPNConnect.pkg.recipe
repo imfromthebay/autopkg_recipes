@@ -75,7 +75,7 @@
         </dict>
 	<dict>
 			<key>Processor</key>
-			<string>grahampugh-recipes/blob/master/CommonProcessors/PkgInfoReader.py</string>
+			<string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader.py</string>
 			<key>Arguments</key>
 			<dict>
 			<key>source_pkg</key>
