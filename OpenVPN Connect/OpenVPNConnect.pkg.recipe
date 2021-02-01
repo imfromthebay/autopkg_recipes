@@ -78,8 +78,8 @@
 			<string>Installer</string>
 			<key>Arguments</key>
 			<dict>
-				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/OpenVPNConnect</string>
+			<key>pkg_path</key>
+			<string>%RECIPE_CACHE_DIR%/downloads/OpenVPNConnect</string>
 			</dict>
 		</dict>
 	</array>
