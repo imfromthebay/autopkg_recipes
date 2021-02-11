@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of zoom.us.</string>
 	<key>Identifier</key>
-	<string>imfromthebay.github.download.zoom.us</string>
+	<string>com.github.imfromthebay.download.zoom.us</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
