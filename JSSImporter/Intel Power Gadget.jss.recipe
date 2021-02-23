@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>gregreznik.pkg.IntelPowerGadget</string>
+	<string>com.github.imfromthebay.pkg.IntelPowerGadget</string>
 	<key>Process</key>
 	<array>
 		<dict>
