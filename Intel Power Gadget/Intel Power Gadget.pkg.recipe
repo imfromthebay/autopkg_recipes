@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>gregreznik.download.IntelPowerGadget</string>
+	<string>com.github.imfromthebay.download.IntelPowerGadget</string>
 	<key>Process</key>
 	<array>
 		<dict>
