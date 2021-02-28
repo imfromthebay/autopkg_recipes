@@ -3,7 +3,7 @@
 ## Caffeine
 This recipe download the latest reslease of Caffeine from the Github repository it is now hosted on, [IntelliScape/caffeine](https://github.com/IntelliScape/caffeine). There is also a JSSImporter recipe for it, as well.
 
-## Intel Power Gadget
+## Intel Power Gadget (in progress, not yet working)
 This recipe download the latest reslease of the Intel Power Gadget. 
 
 ## OpenVPN Connect
