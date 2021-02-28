@@ -62,7 +62,7 @@
 	        </dict>
 	        <dict>
 			<key>Processor</key>
-			<string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader.py</string>
+			<string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader</string>
 			<key>Arguments</key>
 			<dict>
 			        <key>source_pkg</key>
