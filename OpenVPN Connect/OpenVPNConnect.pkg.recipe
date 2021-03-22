@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of OpenVPN Connect and creates a package.</string>
+	<key>Identifier</key>
+	<string>com.github.imfromthebay.OpenVPNConnect.pkg</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>%NAME%</string>
+		<key>VERSION</key>
+		<string>%VERSION%</string>
+	</dict>
+	<dict>
+	<key>Comment</key>
+	<string>Copy the pkg out of the DMG</string>
+	<key>Arguments</key>
+<dict>
+	<key>source_pkg</key>
+	<string>%pathname%/OpenVPN_Connect*.pkg</string>
+	<key>pkg_path</key>
+	<string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%VERSION%.pkg</string>
+</dict>
+	<key>Processor</key>
+    <string>PkgCopier</string>
+</dict>
+	</array>
+</dict>
+</plist>
