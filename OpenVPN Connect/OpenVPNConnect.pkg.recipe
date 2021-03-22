@@ -18,14 +18,14 @@
 	<string>Copy the pkg out of the DMG</string>
 	<key>Arguments</key>
 <dict>
-	<key>source_pkg</key>
-	<string>%pathname%/OpenVPN_Connect*.pkg</string>
-	<key>pkg_path</key>
-	<string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%VERSION%.pkg</string>
+<key>source_pkg</key>
+<string>%pathname%/OpenVPN_Connect*.pkg</string>
+<key>pkg_path</key>
+<string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%VERSION%.pkg</string>
 </dict>
-	<key>Processor</key>
-    <string>PkgCopier</string>
+<key>Processor</key>
+<string>PkgCopier</string>
 </dict>
-	</array>
+</array>
 </dict>
 </plist>
