@@ -13,7 +13,7 @@
 		<key>VERSION</key>
 		<string>n/a</string>
         </dict>
-        <key>Process</key>
+	<key>Process</key>
 	<array>
 		<dict>
 		       <key>Processor</key>
