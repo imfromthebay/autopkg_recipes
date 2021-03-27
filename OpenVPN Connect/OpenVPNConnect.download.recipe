@@ -13,8 +13,6 @@
 		<key>VERSION</key>
 		<string>n/a</string>
         </dict>
-	<key>MinimumVersion</key>
-        <string>0.2.0</string>
         <key>Process</key>
 	<array>
 		<dict>
