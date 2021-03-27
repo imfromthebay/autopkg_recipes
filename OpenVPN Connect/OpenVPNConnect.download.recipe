@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of the OpenVPN Connect Client 3 for Mac and copy PKG out</string>
 	<key>Identifier</key>
-	<string>com.github.gregreznik.download.OpenVPN Connect Client 3</string>
+	<string>com.github.imfromthebay.download.OpenVPN Connect Client 3</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
